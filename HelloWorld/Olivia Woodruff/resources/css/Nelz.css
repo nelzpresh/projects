@@ -1,0 +1,84 @@
+/* Body */
+
+body {
+margin: 0 auto;
+background-image: url('./images/hypnotize_bg.png');
+}
+
+/* Header */
+
+.header {
+background-color: CornflowerBlue;
+padding-bottom: 1.2rem;
+}
+
+.header img {
+width: 700px;
+height: 400px;
+margin-left: 16rem;
+margin-top: 3rem;
+}
+
+h1 {
+text-shadow: #FC0 1px 0 10px;
+text-transform: capitalize;
+font-family: 'Berkshire Swash', cursive;
+font-size: 2.5rem;
+text-align: center;
+font-weight: bold;
+}
+
+.about-me {
+font-size: 1.1rem;
+text-align: center;
+font-family: 'ZCOOL XiaoWei', serif;
+}
+
+/* Main Content */
+
+h2,
+h3,
+h6,
+ul,
+li,
+p {
+margin-left: 1.5rem;
+text-transform: capitalize;
+}
+
+h2 {
+padding-top: 1.5rem;
+padding-bottom: 1rem;
+font-size: 2rem;
+font-weight: 500;
+font-family: 'Playball', cursive;
+}
+
+h3 {
+font-size: 1.3rem;
+font-family: 'Cinzel Decorative', cursive;
+font-weight: bold;
+text-decoration: underline;
+}
+
+li {
+font-family: 'Elsie Swash Caps', cursive;
+line-height: 1.6rem;
+font-size: 1.085rem;
+font-weight: normal;
+text-shadow: #00FFFF 1px 0 10px;
+list-style: circle;
+}
+
+p {
+font-size: 1.08rem;
+font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h6 {
+font-family: 'Elsie Swash Caps', cursive;
+font-weight: bold;
+color: black;
+text-shadow: #FC0 1px 0 10px;
+font-size: 1rem;
+}

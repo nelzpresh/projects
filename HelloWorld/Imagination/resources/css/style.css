@@ -1,0 +1,108 @@
+/*  Header */
+
+html {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+header {
+ display: flex;
+ width: 100%;
+ position: relative;
+ color: #191919;
+ background-color: white;
+ padding-right: 1rem;
+ background-color: orange;
+}
+
+header .container {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid black;
+  z-index: 2;
+}
+
+header .logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  height: 2rem;
+  padding-left: .75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+header li {
+  display: inline;
+  padding-right: 1rem;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 23.15rem;
+}
+
+nav a {
+  font-family: "roboto", serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #383636;
+  margin: .70rem;
+}
+
+.left img{
+  height: 3rem;
+}
+
+a:hover{
+  color: blue;
+}
+
+header h1{
+  color: seagreen;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    position: fixed;
+    height: 4;
+  }
+}
+
+/* Stories */
+
+h3{
+font-family: "Roboto", sans-serif;
+font-size: 2rem;
+text-align: center;
+font-weight: bold;
+border: 1.2px solid black;
+color: green;
+text-transform: uppercase;
+}
+
+h3:hover{
+  color: black;
+  transition-delay: 1s;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+p {
+  font-family: "calibri";
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding-right: 1.5rem;
+}

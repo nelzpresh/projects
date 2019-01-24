@@ -1,0 +1,54 @@
+h1 {
+text-transform: capitalize;
+color: teal;
+font-family: cursive;
+}
+
+.name {
+font-family: 'Cookie', cursive;
+color: rebeccapurple;
+text-transform: capitalize;
+font-size: 1.5rem;
+}
+
+h6.publish {
+color: gray;
+text-transform: capitalize;
+font-size: .85rem;
+}
+
+p.main {
+font-family: 'ZCOOL XiaoWei', serif;
+font-size: .85rem;
+}
+
+h2,
+h3 {
+font-family: 'Berkshire Swash', cursive;
+}
+
+.description h5 {
+font-family: 'Oleo Script', cursive;
+text-transform: capitalize;
+font-size: 1.3rem;
+font-weight: 100;
+color: rebeccapurple
+}
+
+.description {
+font-family: 'ZCOOL XiaoWei', serif;
+line-height: 1.2rem;
+}
+
+a:hover {
+background: #25F3DA;
+color: #DB230D;
+}
+
+a {
+font-family: 'Oleo Script', cursive;
+}
+
+h6 {
+font-size: .85rem;
+}

@@ -1,0 +1,389 @@
+html {
+font-size: 16px;
+}
+
+body {
+margin: 0 auto;
+}
+
+/* header */
+
+header {
+height: 5rem;
+display: flex;
+border-bottom: 1.5px solid black;
+background-color: #23F5D5;
+position: fixed;
+z-index: 2;
+width: 100%;
+margin: 0 auto;
+}
+
+* {
+box-sizing: border-box;
+}
+
+header .container {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  padding-right: 2rem;
+}
+
+.logo img {
+  width: 21%;
+}
+
+header h1 {
+font-family: 'Monoton', cursive;
+color: green;
+}
+
+.talents a {
+margin: 1rem;
+color: green;
+font-size: 1rem;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+#push {
+overflow-y: hidden;
+}
+
+/* Michael Jordan */
+
+.introduction h1 {
+font-family: 'Cookie', cursive;;
+border-bottom: 1.2px solid black;
+margin-top: 3rem;
+margin-bottom: 2rem;
+padding-left: 1rem;
+}
+
+.jordan {
+background: url('./jordan images/images (38).jpeg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 50rem;
+padding-left: 3rem;
+margin-top: 3rem;
+}
+
+.jordan p {
+padding-right: 1.5rem;
+}
+
+h3 {
+padding-top: 2rem;
+font-size: 2.5rem;
+font-weight: bold;
+font-family: 'Roboto Slab', serif;
+padding-left: 2rem;
+}
+
+.jordan h5 {
+color: white;
+font-size: 2rem;
+text-align: center;
+text-decoration: underline;
+text-shadow: 2rem;
+font-weight: bold;
+padding-top: 3rem;
+margin-top: 3rem;
+}
+
+#michael img {
+  width: 50%;
+  height: 15%;
+  margin-top: 3rem;
+  border-radius: 8px;
+  height: 12rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2rem;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.9;
+  transition: transform .5s,
+              opacity .5s;
+  transition: transform .5s,
+              opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 3;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
+.jordan p {
+color: gray;
+font-size: 1rem;
+font-weight: bold;
+font-family: 'ZCOOL XiaoWei', serif;
+padding-right: 1rem;
+padding-top: 2.5rem;
+}
+
+/* Random */
+
+.ronaldo,
+.neymar,
+.messi,
+.nike,
+.curry,
+.harry,
+.lebron,
+.lewis,
+.adidas,
+.pogba,
+.usain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  margin-top: 5rem;
+}
+
+#cristiano img,
+#jnr img,
+#leo img,
+#stephen img,
+#design img,
+#kane img,
+#james img,
+#hamilton img,
+#second-design img,
+#paul img,
+#bolt img {
+  width: 50%;
+  height: 15%;
+  border-radius: 8px;
+  height: 12rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  }
+
+.ronaldo,
+.curry,
+.harry,
+.lebron,
+.lewis,
+.adidas,
+.pogba,
+.usain {
+padding-left: 2rem;
+}
+
+.name {
+padding-top: 4rem;
+}
+
+p {
+font-size: .95rem;
+font-weight: bold;
+line-height: 1.6;
+padding-left: 2rem;
+font-family: 'ZCOOL XiaoWei', serif;
+padding-top: 1.8rem;
+}
+
+h5{
+font-family: 'Berkshire Swash', cursive;
+text-align: center;
+font-weight: bold;
+font-size: 2rem;
+margin-top: 2.5rem;
+margin-bottom: 2.5rem;
+text-decoration: underline;
+padding-top: 1rem;
+}
+
+strong:hover {
+background: #25F3DA;
+color: #DB230D;
+}
+
+strong {
+color: #0A88C8;
+font-family: 'Oleo Script', cursive;
+text-decoration: underline;
+}
+
+
+/* Ronaldo */
+.ronaldo {
+background: url('./ronaldo images/images (35).jpeg');
+}
+
+#cristiano h5 {
+color: RGB(207, 114, 103);
+}
+
+#cristiano p {
+font-size: 1rem;
+font-weight: bold;
+padding-right: 1.3rem;
+color: #E9EF22
+}
+
+
+/* Neymar */
+.neymar {
+background: url("./neymar images/images (26).jpeg");
+}
+
+#jnr {
+color: RGB(138, 238, 25);
+}
+
+#jnr p {
+color: #00FFFF;
+font-size: 1.065rem;
+font-weight: bold;
+}
+
+.neymar {
+padding-left: 1.3rem;
+}
+
+/* Messi */
+.messi {
+background: url("./messi images/download (6).jpeg");
+padding-left: 2rem;
+}
+
+#leo p {
+padding-top: 0.85rem;
+padding-left: 1.2rem;
+color: white;
+font-size: 1.065rem;
+}
+
+#leo h5 {
+color: #26EEE8;
+}
+
+/* Nike */
+.nike {
+background: url("./nike images/images (1).jpeg");
+padding-left: 1.3rem;
+}
+
+#design h5 {
+color: #DAF7A6;
+}
+
+#design p {
+color: gold;
+font-size: 1.1rem;
+padding-left: 1.6rem;
+}
+
+/* Stephen Curry */
+.curry {
+background: url("./curry images/download.jpeg");
+}
+
+#stephen h5 {
+color: teal;
+}
+
+#stephen p {
+color: #7FB3D5;
+font-size: 1.065rem;
+}
+/* Harry Kane */
+.harry {
+background: url("./kane images/download (4).jpeg");
+}
+
+#kane h5 {
+color: #ABEBC6;
+}
+
+#kane p {
+color: #3498DB;
+font-size: 1.1rem;
+}
+
+/* Lebron */
+.lebron {
+background: url("./lebron images/download (1).jpeg");
+}
+
+#james h5{
+color: #ABEBC6;
+}
+
+#james p{
+color: #26EEE8;
+font-size: 1.1rem;
+}
+/* Lewis Hamilton */
+.lewis {
+background: url("./hamilton images/images (43).jpeg");
+}
+
+#hamilton h5 {
+color: gold;
+}
+
+#hamilton p {
+color: #F3064A;
+font-size: 1.1rem;
+}
+
+/* Adidas */
+.adidas {
+background: url("./adidas images/images (29).jpeg");
+}
+
+#second-design h5 {
+color: #06F9DB;
+}
+
+#second-design p {
+color: #CCF906;
+font-size: 1.075rem;
+font-weight: bold;
+}
+
+/* Paul Pogba */
+.pogba {
+background: url("./pogba images/com.junior17wallpapers.paulpogbawalpapershd_5.png");
+}
+
+#paul h5 {
+color: #16A085;
+}
+
+#paul p {
+color: DEEPSKYBLUE;
+font-size: 1.2rem;
+}
+
+/* Usain Bolt */
+.usain {
+  background: url("./usain images/images (12).jpeg");
+  }
+
+#bolt h5 {
+color: DARKTURQUOISE;
+}
+
+#bolt p {
+color: DARKTURQUOISE;
+font-size: 1.1rem;
+}

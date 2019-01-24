@@ -1,0 +1,48 @@
+img {
+height: 150px;
+}
+
+p {
+font-size: 20px;
+}
+
+#cook-time {
+font-weight: bold;
+opacity: 0.5;
+}
+
+#find {
+font-weight: bold;
+font-size: 1.1rem;
+color: black;
+}
+
+li .ingredient {
+list-style: square;
+}
+
+h1 {
+font-weight: bold;
+font-size: 2rem;
+}
+
+h3{
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+p {
+color: gray;
+font-size: 1rem;
+font-weight: normal;
+}
+
+a {
+color: Seagreen;
+}
+
+h1,
+p,
+li {
+font-family: helvetica;
+}

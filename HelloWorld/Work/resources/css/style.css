@@ -1,0 +1,273 @@
+html{
+font-size: 16px;
+font-family: "Roboto" sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #23292d;
+}
+
+/* Header */
+header {
+  display: flex;
+  position: fixed;
+  height: 4rem;
+  border: 1.5px solid black;
+  padding-right: 3.80rem;
+  background-color: orange;
+  z-index: 2;
+  padding-left: 3rem;
+}
+
+header .container {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 21%;
+}
+
+header h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: seagreen;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    position: fixed;
+    height: 2;
+    overflow: hidden;
+  }
+}
+
+/* Background */
+.hero {
+  background: url(./images/img-mission-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5rem;
+  padding-top: 20rem;
+  padding-bottom: 50rem;
+}
+
+.background h1{
+  font-size: 3rem;
+  font-family: "Monoton", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.time :hover {
+  color: #09e2d8;
+}
+
+.work :hover {
+  color: #8310bc;
+}
+
+.destiny :hover {
+  color: #bad608;
+}
+
+.goals :hover {
+  color: #16d308;
+}
+
+.truth :hover {
+  color: #6906db;
+}
+
+.hold :hover {
+  color: #1be822;
+}
+
+.think :hover {
+  color: #211be8;
+}
+
+@media only screen and (max-width: 640px) {
+header{
+  position: fixed;
+  height: 3rem;
+  overflow: hidden;
+}
+
+.hero{
+  height: 4rem;
+}
+
+.background .h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+}
+/* Row images */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.first {
+  background-color: #71eded;
+}
+
+.first img {
+  width: 50%;
+  height: 15%;
+  margin: 1rem;
+  border-radius: 8px;
+  height: 12rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.7)
+}
+
+.first :hover {
+background-color: #a4fc7b;
+transition: 2s linear 2s;
+}
+
+.second :hover{
+background-color: #8c078c;
+transition: 2s linear 2s;
+}
+
+.third :hover {
+background-color: skyblue;
+transition: 2s linear 2s;
+}
+
+.forth :hover{
+background-color: white;
+transition: 2s linear 2s;
+}
+
+.fifth :hover{
+background-color: seagreen;
+transition: 2s linear 2s;
+}
+
+.third {
+  background-color: #e8e85c;
+}
+
+.third img{
+  width: 60%;
+  height: 15%;
+  margin: 2rem;
+  border-radius: 8px;
+  border: 2px solid #5fe2cc;
+  height: 12rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.second img,
+.forth img,
+.fifth img {
+  width: 60%;
+  height: 15%;
+  margin: 1rem;
+  border-radius: 8px;
+  border: 2px solid #5fe2cc;
+  height: 12rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+h5 :hover {
+transition-delay: 2s;
+transition-duration: 1s;
+transition-timing-function: ease-in;
+color: seagreen;
+}
+
+h5 a {
+overflow: hidden;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.9;
+  transition: transform .5s,
+              opacity .5s;
+  transition: transform .5s,
+              opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 3;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.second {
+  background-color: #a4fc7b;
+}
+
+.forth {
+  background-color: #8c078c;
+}
+
+.fifth {
+  background-color: #ef397f;
+}
+
+.forth h5 {
+  color: #294dce;
+}
+
+@media only screen and (max-width: 860px) {
+
+  header{
+  height: 4rem;
+  overflow-y: hidden;
+  }
+
+.row {
+  display: flex;
+}
+
+.first img,
+.second img,
+.third img,
+.forth img,
+.fifth img {
+  width: 50%;
+  height: 20;
+  margin: 1rem;
+}
+
+footer {
+  font-size: .85rem;
+}
+}
+
+h5 {
+text-align: center;
+font-size: 2rem;
+font-weight: bold;
+padding-right: 8rem;
+}
+
+.salad {
+font-size: 2.2rem;
+font-weight: bold;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: white;
+}

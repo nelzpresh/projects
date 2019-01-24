@@ -1,0 +1,65 @@
+html {
+font-family: helvetica, sans-serif;
+}
+
+h1 {
+font-family: 'Unlock', cursive;
+color: DarkGreen;
+text-transform: capitalize;
+font-size: 2rem;
+font-weight: 400;
+}
+
+.beaches h2 {
+font-family: 'Unlock', cursive;
+color: DarkGreen;
+font-size: 1.5rem;
+font-weight: 400;
+}
+
+h2 {
+font-family: 'Kumar One Outline', cursive;
+color: ;
+font-size: 1.5rem;
+font-weight: 700;
+}
+
+p{
+font-family: 'Roboto Slab', serif;
+font-size: 1rem;
+font-weight: normal;
+line-height: 1.5;
+opacity: 0.6;
+}
+
+li {
+font-family: 'Lobster', cursive;
+font-size: 1.2rem;
+font-weight: normal;
+color: #c13db3;
+line-height: 1.5;
+}
+
+img {
+box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+border-radius: 8px;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.8;
+  transition: transform .5s,
+              opacity .5s;
+  transition: transform .5s,
+              opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 3;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}

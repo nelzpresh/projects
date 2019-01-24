@@ -1,0 +1,22 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: white;
+}
+
+
+.jumbotron {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 700px;
+  text-shadow: 0.25px 0.25px 0.25px
+  #000000;
+}

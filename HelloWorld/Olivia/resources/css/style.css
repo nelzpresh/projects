@@ -1,0 +1,29 @@
+body{
+font-family: Georgia;
+background-image: url('./images/hypnotize_bg.png'); 
+}
+
+h1,
+h2,
+h3,
+h6,
+li {
+text-transform: capitalize;
+}
+
+.header {
+background-color: CornflowerBlue;
+text-align: center;
+padding-top: 1rem;
+}
+
+p {
+font-size: 20px;
+opacity: 0.7;
+}
+
+h1 {
+font-size: 2rem;
+color: Azure;
+font-weight: bold;
+}

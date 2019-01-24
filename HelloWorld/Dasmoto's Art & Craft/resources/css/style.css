@@ -1,0 +1,94 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.hero {
+  background: url('./images/gallery-07 copy.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-family: 'Roboto', 'cursive',sans-serif;
+  font-size: 5rem;
+  color: seagreen;
+  text-align: center;
+}
+
+
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.ride h2 {
+  background-color: mediumspringgreen;
+}
+
+h3 {
+  font-family: 'calibri';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.beauty h2{
+  background-color: orange;
+  color: red;
+}
+
+.sea h2 {
+  background-color: seagreen;
+  color: blue;
+}
+
+.lady h2 {
+  background-color: purple;
+  color: orange;
+}
+
+.ocean h2 {
+  background-color: pink;
+  color: purple;
+}
+
+.life h2{
+  background-color: skyblue;
+  color: yellow;
+}
+
+.gift h2 {
+  background-color: lightcoral;
+  color: skyblue;
+}
+
+.gift img{
+  width: 75%;
+  height: auto;
+}
+
+p{
+  font-family: 'ubuntu', sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+span {
+  color: orange;
+}
+
+.footer {
+  border-top: 1px solid white;
+}

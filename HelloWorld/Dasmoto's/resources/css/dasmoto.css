@@ -1,0 +1,113 @@
+body {
+margin: 0 auto;
+}
+
+/* Background Images */
+.dasmoto {
+background-image: url('./images/pattern.jpeg');
+}
+
+.brush {
+background-image: url('./images/hacksaw.jpeg');
+}
+
+.frame {
+background-image: url('./images/frames.jpeg');
+}
+
+.paint {
+background-image: url('./images/finnish.jpeg');
+}
+
+/* Chaining */
+.dasmoto,
+.brush,
+.frame,
+.paint {
+  background-position: center;
+  background-size: cover;
+  height: 53rem;
+  padding-top: 5rem;
+}
+
+h2,
+h3 {
+text-transform: capitalize;
+text-align: center;
+}
+
+.frame h2 {
+color: silver;
+text-shadow: Maroon 1px 0 10px;
+}
+
+.brush p {
+  color: #5D6D7E;
+}
+
+.frame p {
+color: #2ECC71;
+}
+
+.paint p {
+
+}
+
+
+
+/* HTML Headings */
+h1 {
+text-align: center;
+padding-top: 19rem;
+font-style: italic;
+font-size: 100px;
+font-weight: bold;
+color: khaki;
+font-family: 'Berkshire Swash', cursive;
+text-transform: uppercase;
+}
+
+h2 {
+font-size: 70px;
+font-weight: bold;
+padding-top: 15rem;
+font-family: 'Oleo Script', cursive;
+color: gold;
+text-shadow: #00FFFF 1px 0 10px;
+}
+
+h3 {
+font-family: 'Elsie Swash Caps', cursive;
+padding-bottom: 10rem;
+font-size: 50px;
+font-weight: bold;
+color: aqua;
+text-decoration: underline;
+}
+
+p {
+text-align: center;
+font-size: 1.2rem;
+font-family: 'ZCOOL XiaoWei', serif;
+font-weight: bold;
+line-height: 1.6rem;
+color: #10F3C6;
+}
+
+/* Span */
+.brush span {
+color: #52BE80;
+}
+
+.frame span {
+color: skyblue;
+}
+
+.paint span {
+color: #BA4A00;
+}
+
+span:hover {
+background-color: silver;
+color: seagreen;
+}
